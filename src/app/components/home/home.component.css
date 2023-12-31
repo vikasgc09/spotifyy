@@ -5,6 +5,7 @@
     align-items: center;
     background-color: black;
     height: 100vh;
+    
 }
 
 .spotify__home-container_playlist-container{
@@ -25,4 +26,8 @@
     cursor: pointer;
     color: lightgray;
 
+}
+
+.spotify__home-container_playlist-container{
+    padding-left: 0px;
 }

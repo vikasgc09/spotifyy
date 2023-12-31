@@ -7,7 +7,7 @@ import { HomeComponent } from './components/home/home.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, TopNavComponent,HomeComponent],
+  imports: [CommonModule, RouterOutlet, TopNavComponent,HomeComponent, TopNavComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
