@@ -28,6 +28,13 @@
 
 }
 
+.spotify__home-container_side-bar-items > a{
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration:none;
+
+}
 .spotify__home-container_playlist-container{
     padding-left: 0px;
 }
