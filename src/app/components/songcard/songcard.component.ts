@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-songcard',
@@ -7,6 +7,15 @@ import { Component } from '@angular/core';
   templateUrl: './songcard.component.html',
   styleUrl: './songcard.component.css'
 })
-export class SongcardComponent {
+export class SongcardComponent implements OnInit{
+  ngOnInit(): void {
+   
+  }
+
+  @Input() public playlist_thumbnail! : string;
+  @Input() public title! : string;
+  @Input() public description! : string;
+
+  constructor(){}
 
 }

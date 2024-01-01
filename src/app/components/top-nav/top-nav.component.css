@@ -2,7 +2,7 @@
     width: 100%;
     height: 75px;
     background-color: #0f0f0f;
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     display: flex;
@@ -16,8 +16,9 @@
 }
 
 .spotify__top-nav_focus-title{
-    flex-basis: 600px ;
-    margin-left: -200px;
+    flex-basis: 550px ;
+    margin-left: -150px;
+    font-size: 20px;
 }
 .spotify__top-nav_auth{
     display: flex;
@@ -26,6 +27,11 @@
     align-items: center;
     float: right;
     gap: 20px;
+
+}
+
+.spotify__top-nav_auth:hover{
+    cursor: pointer;
 }
 
 .spotify__top-nav_login{
