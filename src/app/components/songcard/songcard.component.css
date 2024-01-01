@@ -10,3 +10,23 @@
     box-shadow: rgba(0,0,0,0.24) 0px 3px 8px;
     color: white;
 }
+
+
+.spotify__song-card:hover{
+    background-color: rgb(45, 45,45);
+    cursor: pointer;
+}
+
+
+.spotify__song-card__title{
+    font-weight: bold;
+    align-items: center;
+}
+
+
+
+.spotify__song-card__description{
+    
+    color: lightgray;
+    align-items: center;
+}
