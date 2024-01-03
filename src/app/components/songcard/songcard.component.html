@@ -1,7 +1,20 @@
-<div class="spotify__song-card">
+<li
+  *ngFor="let item of items"
+  class="column"
+  style="
+    
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 1fr 1fr 1fr;
+  "
+>
+  <div fxFlex="25%" class="spotify__song-card row">
     <div class="spotify__song-card__thumbnail">
-        <img [src]="playlist_thumbnail" width="120" alt="Song Thumbnail">
+      <img [src]="playlist_thumbnail" width="120" alt="Song Thumbnail" />
     </div>
-    <div class="spotify__song-card__title container">{{title}}</div>
-    <div class="spotify__song-card__description container">{{description}}</div>
-</div>
+    <div class="spotify__song-card__title container">{{ title }}</div>
+    <div class="spotify__song-card__description container">
+      {{ description }}
+    </div>
+  </div>
+</li>
