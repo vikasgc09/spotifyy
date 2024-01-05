@@ -11,7 +11,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 })
 export class SongcardComponent implements OnInit{
 item :any;
-items : number[] = [1,2,3,4,5,6,7,1,2,3,4,5,6,7,1,2,3,4,5,6,7, 1,2,3,4,5,6,7, 1,2,3,4,5,6,7];
+items : number[] = [1,2,3,4,5,6,7,1,2,3,4,5,6,7,1,2,3,4,5,6,7,1,2,3,4,5,6,7,1,2,3,4,5,6,7];
   ngOnInit(): void {
    
   }
