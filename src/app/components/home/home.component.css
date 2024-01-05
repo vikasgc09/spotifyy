@@ -4,13 +4,13 @@
     justify-content: flex-start;
     align-items: center;
     background-color: black;
-    height: 100vh;
+    height: auto;
     
 }
 
 .spotify__home-container_playlist-container{
     background-color: #1e1e1e;
-    height: 100vh;
+    height: auto;
 }
 
 .spotify__home-container_side-bar-items{

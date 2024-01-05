@@ -1,13 +1,13 @@
-<div fxLayout="row"
-  *ngFor="let item of items"
->
-  <div fxFlex="25%" class="spotify__song-card row">
+<div fxLayout="row wrap">
+  <div *ngFor="let item of items" style="padding:20px;justify-content: center;align-items: center;">
+  <div  class="spotify__song-card row" style="justify-content: center;align-items: center;">
     <div class="spotify__song-card__thumbnail">
-      <img [src]="playlist_thumbnail" width="120" alt="Song Thumbnail" />
+      <img [src]="playlist_thumbnail" width="120" alt="Song Thumbnail"  />
     </div>
-    <div class="spotify__song-card__title container">{{ title }}</div>
-    <div class="spotify__song-card__description container">
+    <div class="spotify__song-card__title container" style="text-align: center;">{{ title }}</div>
+    <div class="spotify__song-card__description container" style="text-align: center">
       {{ description }}
     </div>
+  </div>
   </div>
 </div>
